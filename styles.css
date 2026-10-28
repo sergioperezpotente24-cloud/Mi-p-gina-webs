@@ -1,0 +1,72 @@
+img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.living {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+body {
+    background-color: #f3eeee;
+}
+
+button{
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+
+    background-color: #212529;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+}
+
+section.container {
+    margin-top: 25px !important;
+}
+
+.contacto {
+    background-color: lightblue;
+    font-family: Arial;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.contacto main {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.contacto h2 {
+    text-align: center;
+    color: blue;
+}
+
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto select,
+.contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.contacto button {
+    background-color: #212529;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
